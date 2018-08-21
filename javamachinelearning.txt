@@ -1,3 +1,5 @@
+Código utilizado pelo professor no Curso do Alura: Machine Learning: Introdução ao sistemas de recomendações
+
 DataModel model = new FileDataModel(new File(dados.csv));
 UserSimilarity similarity = new PersonCorrelationSimilarity(model)
 UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.1, similaity, model);
